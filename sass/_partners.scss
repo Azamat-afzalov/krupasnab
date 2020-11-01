@@ -1,0 +1,31 @@
+.partners{
+  grid-column: grid-start/grid-end;
+  //display: flex;
+  //grid-template-columns: repeat(auto-fit,minmax(20rem,max-content));
+  margin-bottom: 10rem;
+  &__container {
+    margin-top: 5rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(20rem,max-content));
+    grid-gap:  5rem 2rem;
+    align-content: center;
+    justify-items: center;
+  }
+  &__heading {
+    text-align: center;
+    color: $color-secondary;
+    font-size: 3.6rem;
+  }
+  &__item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    box-shadow:  0 0 10px rgba(0,0,0,0.2);
+    padding: 2rem 4rem;
+    min-height: 25rem;
+  }
+  &__img {
+    width: 80%;
+  }
+}
