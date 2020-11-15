@@ -9,9 +9,11 @@
 
   &__container {
     display: flex;
-    height : 500px;
     grid-column:start/end;
     padding: 4rem 0;
+  }
+  &__left { 
+    margin-right: 2rem;
   }
   &__left,
   &__right {
@@ -24,7 +26,6 @@
     }
   }
   &__address {
-    margin-bottom: 4rem;
     & p {
       font-size: 2rem;
     }
