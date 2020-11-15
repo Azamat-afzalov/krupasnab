@@ -7,7 +7,8 @@
   font-family: "Nunito", sans-serif; }
 
 html {
-  font-size: 62.5%; }
+  font-size: 62.5%;
+  scroll-behavior: smooth; }
 
 body {
   font-weight: 400; }
