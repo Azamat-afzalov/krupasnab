@@ -30,21 +30,20 @@
   &__experience{
     font-size: 5rem;
     position: relative;
-
-    //&:after {
-    //  position: absolute;
-    //  bottom: 0;
-    //  left: 0;
-    //  content: '';
-    //  width: 100%;
-    //  background: linear-gradient(90deg, #ffd327, $color-primary-light);
-    //  height: 4px;
-    //}
     & span {
-      //border: 1.5rem solid;
-      //padding: 1rem;
-      //border-color: #ffd327;
       background: linear-gradient(transparent 65%, #ffd327 65%);
     }
   }
+}
+
+@media screen and (max-width : 900px) {
+  .about {
+    grid-template-columns: 1fr;
+    grid-row-gap: 5rem;
+    grid-column-gap: 0;
+    &__img {
+      min-height: 300px;
+    } 
+  }
+  
 }

@@ -7,4 +7,4 @@ openBtn.addEventListener('click', e => {
 });
 closeBtn.addEventListener('click', e => {
     menu.classList.remove('header__nav--active')
-})
+});

@@ -2,6 +2,7 @@
 $font-primary : 'Nunito', sans-serif;
 $font-secondary : 'Roboto',  sans-serif;
 
+
 $color-primary-dark : rgb(250,184,25);
 $color-primary-light : rgb(255,229,152);
 $color-secondary : rgb(27,62,57);
@@ -25,7 +26,6 @@ html {
 
 body {
   font-weight: 400;
- 
 }
 
 .container {
@@ -36,12 +36,22 @@ body {
   grid-gap: 4rem;
 }
 
-@media screen  and  (max-width: 600px) {
- .container {
-   grid-template-columns: [grid-start]repeat(8,minmax(min-content,18rem))[grid-end];
-   grid-gap: 1rem;
-   padding: 0 2rem;
- }
-
+@media screen and (max-width: 900px) {
+  html {
+    font-size: 50%;
+  }
 }
+
+@media screen  and  (max-width: 600px) {
+  html {
+    font-size: 50%;
+  }
+  .container {
+    grid-template-columns: [grid-start]repeat(8,minmax(min-content,18rem))[grid-end];
+    grid-gap: 1rem;
+    padding: 0 2rem;
+  }
+}
+
+
 

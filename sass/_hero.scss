@@ -45,3 +45,21 @@
     }
   }
 }
+
+@media (max-width : 900px) { 
+  .hero {
+    flex-direction: column;
+    align-items: center;
+    &__content {
+      text-align: center;
+      margin-top: 2rem;
+    }
+    &__text {
+      margin-top: 1rem;
+    }
+    &__cta {
+      margin: 2rem auto 0 auto;
+    }
+  }
+  
+}
